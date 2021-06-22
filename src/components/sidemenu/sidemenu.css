@@ -1,0 +1,29 @@
+.sidemenu {
+  width: 250px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: orange;
+  position: absolute;
+  top: 100px;
+  left: 60px;
+}
+
+.sm_item {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 10px;
+  color: white;
+}
+
+.sm_item:hover {
+  background-color: rgb(214, 141, 4);
+}
+
+.sm_item_active span {
+  color: orangered;
+  background-color: #77acf1;
+}
